@@ -1,0 +1,2692 @@
+{
+	"id": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+	"name": "Vault API Collection",
+	"description": "",
+	"order": [
+		"e711e45f-0833-14ef-0450-a29dbb8b85bb",
+		"4d053156-a73d-7da8-f3ef-554f461fccff",
+		"091061cf-64d4-4cd9-650b-07e819de8b30",
+		"599df324-1c6a-5072-87e6-3df9b03f1fb4",
+		"fd46e331-b648-ab1d-3a97-c7047ba21d45",
+		"c563a998-21a3-3b13-33ad-945984fce531",
+		"b4566f7b-76c2-fa24-12e9-804577f4a9ff",
+		"d7ec4924-2018-44e3-9097-674c1471d967",
+		"aaefd556-5af5-c4b9-38a1-4104dbdf80cc",
+		"f548f10d-2df2-e1ef-7eeb-1f597d964622",
+		"5a11f212-a4dd-2d04-a60c-f4f93221febd",
+		"cbbc3a62-1adf-e23e-fd76-371f7b0adaf0",
+		"6ffe9c81-59e2-60e6-a7c5-2f11e514c963",
+		"38ed4320-7e67-a825-0d82-de3a7be860e4",
+		"957c67ec-530a-8b03-9b61-02746f25b5a3",
+		"78d6560c-fa1c-1c50-7d9b-dfb76b732ee3",
+		"1fb56313-c1e7-9dc5-eb2e-bbad97ec3bd9",
+		"3bb0ffbd-ddf8-a5fb-f7a0-b9ee75ed5da5",
+		"34ca2c53-3e91-9f14-0acd-c5ce69ea81e9",
+		"d2291b07-a4f6-fb5f-773d-6cc067dab41b",
+		"d73b76c1-bdda-77f6-dedc-3635ec798ffc",
+		"93d03646-94fc-7b8f-69e8-853b6a37f9ec",
+		"e03e397f-0b1f-09a4-263f-6ad01d56155e",
+		"a44bc1a6-9054-46c4-08d6-b4fadc6e7a26",
+		"b7944d4d-e5eb-5937-d96c-d8ac3e2017c7",
+		"69de7849-b02e-ef71-cf7e-cc2358c3fd5d",
+		"d60cc4f1-f82e-36ac-219d-fd8353c92ba0",
+		"32e2a30c-0925-b822-a9c4-9e4f826cd589",
+		"5bd617a8-60e5-f4b3-3aed-e7f8391d2b5f",
+		"8e06a890-1cf2-8069-ae41-5838da245ba2",
+		"8e884540-0edd-4d9c-8846-48f0d18ef977",
+		"0dcbe7ec-b049-7219-f7f2-9a626699ab45",
+		"fca9551e-516f-69f5-1966-1909ded0b159",
+		"60982f75-e8aa-5447-8345-8faaab426eff",
+		"abae462d-ba8a-642b-7c17-7d5b340453de",
+		"04b22ffe-a28d-bfce-fc60-75da63f8c9d4",
+		"4b8c91d7-f887-c4d0-881b-461b332e39fa"
+	],
+	"folders": [
+		{
+			"id": "b7857b2b-e0f7-5604-4b9c-3cb2d549ac10",
+			"name": "Vault Queries",
+			"description": "Queries are updated to use the Environment function of Postman",
+			"order": [],
+			"collection_name": "Vault API Collection",
+			"collection_id": "d1f7b0eb-089d-05ff-7245-a210e92b3693"
+		}
+	],
+	"timestamp": 1359062359659,
+	"synced": false,
+	"remoteLink": "",
+	"requests": [
+		{
+			"id": "04b22ffe-a28d-bfce-fc60-75da63f8c9d4",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/v8.0/objects/users",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test API upload",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "eTMF Lifecycle",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "Trial Management",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Trial Oversight",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Monitoring Plan",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "wonderDrug",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "study__v",
+					"value": "0ST000000000101",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418155524974,
+			"name": "Retrieve Users",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "091061cf-64d4-4cd9-650b-07e819de8b30",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/{{API}}/objects/documents/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test picklist slash",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Reference Documents",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "Reference Document",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Text Book",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Tech Book",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Approved for Use",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "test_picklist_migration_tool__c",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154688776,
+			"name": "Create Ref Document",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "0dcbe7ec-b049-7219-f7f2-9a626699ab45",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/metadata/objects/documents/types/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154932843,
+			"name": "Retrieve Document Types",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "1fb56313-c1e7-9dc5-eb2e-bbad97ec3bd9",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/catalogs/product__v",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154823801,
+			"name": "Retrieve Catalog Data",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "32e2a30c-0925-b822-a9c4-9e4f826cd589",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/query?q=Select id, name__v, title__v from documents where study__v='1351180051896'",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154890815,
+			"name": "Retrieve Document List where Study = \"x\"",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "34ca2c53-3e91-9f14-0acd-c5ce69ea81e9",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/685/roles",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154832666,
+			"name": "Retrieve Roles",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "38ed4320-7e67-a825-0d82-de3a7be860e4",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}//objects/binders/830/documents",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "document_id__v",
+					"value": "684",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "binding_rule__v",
+					"value": "current",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "parent_id__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "document_major_version__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "document_minor_version__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154808126,
+			"name": "Add Document to Binder",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "3bb0ffbd-ddf8-a5fb-f7a0-b9ee75ed5da5",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/catalogs/product__v/xyz1237__c",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "product_name__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_abbreviation__v",
+					"value": "XYZ123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "active__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_family__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154827874,
+			"name": "Update Catalogs",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "4b8c91d7-f887-c4d0-881b-461b332e39fa",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/groups",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154958190,
+			"name": "Retrieve Groups copy",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "4d053156-a73d-7da8-f3ef-554f461fccff",
+			"headers": "Authorization: 49B6C35B2739F74CCBFFA631B1768B1BCCE0729A33046D2020EA30820B7E7804A14153B5C8334366A8BDCA72331BA5C6\n",
+			"url": "{{siteurl}}/api/v8.0/objects/documents/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test API upload",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "eTMF Lifecycle",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "Trial Management",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Trial Oversight",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Monitoring Plan",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "wonderDrug",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "study__v",
+					"value": "0ST000000000101",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154680033,
+			"name": "Create Document",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "599df324-1c6a-5072-87e6-3df9b03f1fb4",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/{{API}}/objects/documents/667/lock",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154696698,
+			"name": "Check Out Document",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "5a11f212-a4dd-2d04-a60c-f4f93221febd",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/861/versions/1/0/relationships",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "target_doc_id__v",
+					"value": "684",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "relationship_type__v",
+					"value": "related_claims__vs",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "target_major_version_v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "target_minor_version_v",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154753461,
+			"name": "Create Document Relationships",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "5bd617a8-60e5-f4b3-3aed-e7f8391d2b5f",
+			"headers": "Authorization: {{Authorization}}\nSearch: hh\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154895085,
+			"name": "Retrieve Document List",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "60982f75-e8aa-5447-8345-8faaab426eff",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/70",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154943591,
+			"name": "Retrieve [specific] Document's Properties",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "69de7849-b02e-ef71-cf7e-cc2358c3fd5d",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/683/file",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154878282,
+			"name": "Retrieve Document File",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "6ffe9c81-59e2-60e6-a7c5-2f11e514c963",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}//objects/binders/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154802053,
+			"name": "Create Binder",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "78d6560c-fa1c-1c50-7d9b-dfb76b732ee3",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/v9.0/vobjects/site__v",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test API upload",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "eTMF Lifecycle",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "Trial Management",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Trial Oversight",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Monitoring Plan",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "wonderDrug",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "study__v",
+					"value": "0ST000000000101",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418156686084,
+			"name": "Retrieve Catalogs",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "8e06a890-1cf2-8069-ae41-5838da245ba2",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/picklists",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154922991,
+			"name": "Retrieve Document Picklist",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "8e884540-0edd-4d9c-8846-48f0d18ef977",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/metadata/objects/documents/properties",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154928019,
+			"name": "Retrieve Document Properties",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "93d03646-94fc-7b8f-69e8-853b6a37f9ec",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/v9.0/objects/groups",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154857497,
+			"name": "Retrieve Groups",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "957c67ec-530a-8b03-9b61-02746f25b5a3",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/query?q=select id from users where user_name__v = 'test-space2@vv-demo-migration.com'",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154813089,
+			"name": "Query Anything",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "a44bc1a6-9054-46c4-08d6-b4fadc6e7a26",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/metadata/objects/documents/types//promotional_piece__vs/relationships",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154868851,
+			"name": "Retrieve Document Relationships for Doc Type",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "aaefd556-5af5-c4b9-38a1-4104dbdf80cc",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/5/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "title__v",
+					"value": "Updated via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154742247,
+			"name": "Upload New Document Version",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "abae462d-ba8a-642b-7c17-7d5b340453de",
+			"headers": "Authorization: 42CAA8996C8742116CF2ADC44DBC23D428508F29AE35BF55C665E97FCB8A63029F6FFF51F477AB020310BA2975F55EB6\n",
+			"url": "{{siteurl}}/api/v8.0/objects/documents/4216",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "study__v",
+					"value": "0ST000000000J01",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "site__v",
+					"value": "0SI000000000P07",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "00P000000000C01",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154948736,
+			"name": "Update [specific] Document's Properties",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "b4566f7b-76c2-fa24-12e9-804577f4a9ff",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/users",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_email__v",
+					"value": "krunal.shah@veevasystems.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_locale__v",
+					"value": "en_US",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_type_id__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "security_policy_id__v",
+					"value": "63",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_first_name__v",
+					"value": "Test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_last_name__v",
+					"value": "Space",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_timezone__v",
+					"value": "America/New_York",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_name__v",
+					"value": "testing.user@vv-demo-migration.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "active__v",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_language__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154728439,
+			"name": "Create User",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "b7944d4d-e5eb-5937-d96c-d8ac3e2017c7",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/684/versions/0/1/renditions",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154873785,
+			"name": "Retrieve Document Rendition",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "c563a998-21a3-3b13-33ad-945984fce531",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/667/lock",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154723203,
+			"name": "Delete Document Lock",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "cbbc3a62-1adf-e23e-fd76-371f7b0adaf0",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/groups",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "group_name__v",
+					"value": "Test Group",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "group_description__v",
+					"value": "en_US",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "members__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154763273,
+			"name": "Create Group",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "d2291b07-a4f6-fb5f-773d-6cc067dab41b",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/684/versions/0/1/lifecycle_actions/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154845559,
+			"name": "Lifecycle Action",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "d60cc4f1-f82e-36ac-219d-fd8353c92ba0",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/query?q=Select id, name__v, title__v from documents where type__v='Clinical'",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154885830,
+			"name": "Retrieve Document List where Doctype = \"x\"",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "d73b76c1-bdda-77f6-dedc-3635ec798ffc",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/users/20991",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "user_type_id__v",
+					"value": "6",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154850106,
+			"name": "Update Users",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "d7ec4924-2018-44e3-9097-674c1471d967",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/{{API}}/objects/documents/685/roles",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "coordinator__v.users",
+					"value": "20991",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154736794,
+			"name": "Create Custom Role",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "e03e397f-0b1f-09a4-263f-6ad01d56155e",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/groups/1366305621114",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "members__v",
+					"value": "27751, 1907",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154864196,
+			"name": "Update Group Members",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "e711e45f-0833-14ef-0450-a29dbb8b85bb",
+			"headers": "",
+			"url": "{{siteurl}}/api/auth?username={{username}}&password={{password}}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418225277505,
+			"name": "Retrieve Session ID",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "f548f10d-2df2-e1ef-7eeb-1f597d964622",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/catalogs/product__v",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "product_name__v",
+					"value": "XYZ123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_abbreviation__v",
+					"value": "XYZ",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "active__v",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_family__v",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154748479,
+			"name": "Create Catalogs",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "fca9551e-516f-69f5-1966-1909ded0b159",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/binders/2379?depth=all",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name__v",
+					"value": "Test Binder via API",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifecycle__v",
+					"value": "Promotional Piece",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type__v",
+					"value": "PRC Material",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "subtype__v",
+					"value": "Advertisement",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classification__v",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "major_version_number__v",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "minor_version_number__v",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product__v",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country__v",
+					"value": "1330217696277",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status__v",
+					"value": "Draft",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "media__vs",
+					"value": "Print",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "async",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "language__v",
+					"value": "English",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154938966,
+			"name": "Retrieve [specific] Binder's Properties",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		},
+		{
+			"id": "fd46e331-b648-ab1d-3a97-c7047ba21d45",
+			"headers": "Authorization: {{Authorization}}\n",
+			"url": "{{siteurl}}/api/{{API}}/objects/documents/667",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418154718710,
+			"name": "Update Document File",
+			"description": "",
+			"collectionId": "d1f7b0eb-089d-05ff-7245-a210e92b3693",
+			"synced": false
+		}
+	]
+}
